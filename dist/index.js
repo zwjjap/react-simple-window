@@ -6,7 +6,7 @@ import _ from 'lodash';
 import './style.less';
 
 //上下 多加载行数
-const moreLoading = 10;
+const moreLoading = 6;
 
 function FixedSizeList(props,ref){
 
@@ -62,7 +62,7 @@ function FixedSizeList(props,ref){
         }
         interSetTime.current = setTimeout(() => {
             setStartPos(start);  
-        },20);
+        },15);
     };
 
 
